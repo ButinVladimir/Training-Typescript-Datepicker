@@ -1,0 +1,89 @@
+.datepicker-window {
+	background-color: #BFBFBF;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	display: none;
+	padding: 3px;
+	position: absolute;;
+}
+
+.datepicker-window .datepicker-header {
+	background-color: #F5F5F5;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	padding: 5px;
+	text-align: center;
+}
+
+.datepicker-window .datepicker-header .datepicker-month-button {
+	border: 1px solid #F5F5F5;
+	color: black;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 0 .5em;
+	text-decoration: none;
+}
+
+.datepicker-window .datepicker-header .datepicker-month-button:hover {
+	background-color: #FAFAFA;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+}
+
+.datepicker-window .datepicker-header .datepicker-prev-month-button {
+	float: left;
+}
+
+.datepicker-window .datepicker-header .datepicker-next-month-button {
+	float: right;
+}
+
+.datepicker-window .datepicker-header .datepicker-month-caption {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.datepicker-window .datepicker-days {
+	background-color: #F5F5F5;
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	margin-top: 3px;
+}
+
+.datepicker-window .datepicker-days-table {
+	width: 100%;
+}
+
+.datepicker-window .datepicker-days-table th {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.datepicker-window .datepicker-days-table td {
+	text-align: center;
+}
+
+.datepicker-window .datepicker-days-table td a {
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	color: black;
+	display: block;
+	font-size: 1.1em;
+	padding: 3px 12px 3px 12px;
+	text-decoration: none;
+}
+
+.datepicker-window .datepicker-days-table td .selected {
+	background-color: #5F5FF0;
+	color: white;
+}
+
+.datepicker-window .datepicker-days-table td .today {
+	background-color: #F0F05F;
+	color: black;
+}
+
+.datepicker-window .datepicker-days-table td a:hover {
+	background-color: white;
+	color: black;
+}

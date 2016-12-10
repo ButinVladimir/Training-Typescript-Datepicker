@@ -1,0 +1,1 @@
+export type Formatter = (year: number, month: number, day: number) => string;
